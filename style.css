@@ -12,4 +12,17 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    background: linear-gradient(to right,#B0E0E6, grey, black, grey, #B0E0E6 );
+        background-size: 200%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: animate-gradient 2.5s linear infinite 
 }
+       
+        
+
+@keyframes animate-gradient{
+        to {
+            background-position: 200%;}
